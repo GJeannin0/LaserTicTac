@@ -1,0 +1,104 @@
+# Blender MTL File: 'PistolaLaser.blend'
+# Material Count: 9
+
+newmtl Caucho
+Ns 323.999994
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.0 0.0 0.0
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl ColorPistolaLiquido
+Ns 323.999994
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.0 0.0 0.0
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl Cristal
+Ns 323.999994
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.0 0.0 0.0
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl Material.001
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+map_Bump D:\\Textures\\MetalRalladoOpaco\\TexturesCom_Metal_AluminumBrushed_1K_normal.tif
+map_Kd D:\\Textures\\MetalRalladoOpaco\\TexturesCom_Metal_AluminumBrushed_1K_albedo.tif
+map_Ns D:\\Textures\\MetalRalladoOpaco\\TexturesCom_Metal_AluminumBrushed_1K_roughness.tif
+refl D:\\Textures\\MetalRalladoOpaco\\TexturesCom_Metal_AluminumBrushed_1K_metallic.tif
+
+newmtl Metal
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.000000 0.009277 0.003553
+Ks 0.500000 0.500000 0.500000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+map_Bump D:\\Textures\\MEtalBlackRayado\\TexturesCom_Metal_PaintedGun_1K_normal.tif
+map_Kd D:\\Textures\\MEtalBlackRayado\\TexturesCom_Metal_PaintedGun_1K_albedo.tif
+map_Ns D:\\Textures\\MEtalBlackRayado\\TexturesCom_Metal_PaintedGun_1K_roughness.tif
+refl D:\\Textures\\MEtalBlackRayado\\TexturesCom_Metal_PaintedGun_1K_metallic.tif
+
+newmtl MetalBrocheado
+Ns 323.999994
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.0 0.0 0.0
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl MetalRayones
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+map_Bump D:\\Textures\\MetalRayones\\Metal_001_normal.png
+map_Kd D:\\Textures\\MetalRayones\\Metal_001_basecolor.png
+map_Ns D:\\Textures\\MetalRayones\\Metal_001_roughness.png
+refl D:\\Textures\\MetalRayones\\Metal_001_metallic.png
+
+newmtl SolarPanel
+Ns 323.999994
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.0 0.0 0.0
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl pARED
+Ns 323.999994
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.0 0.0 0.0
+Ni 1.000000
+d 1.000000
+illum 2
