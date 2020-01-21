@@ -13,7 +13,6 @@ GameObject:
   - component: {fileID: 7941210472283159631}
   - component: {fileID: 1991088477742448454}
   - component: {fileID: 8980467216848992909}
-  - component: {fileID: 3006138560491007409}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -119,14 +118,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   weapons:
   - {fileID: 4165171575295872631}
---- !u!81 &3006138560491007409
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5026187826047632036}
-  m_Enabled: 1
 --- !u!1001 &6672790406944443765
 PrefabInstance:
   m_ObjectHideFlags: 0

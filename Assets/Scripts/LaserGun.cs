@@ -7,7 +7,8 @@ public class LaserGun : Weapon
 	{
 		Vector3 pos;
 		Quaternion rot;
-		PlayerCamera.instance.CalculateCameraAimTransform(entity.transform, entity.GetState<ITicTacState>().Pitch, out pos, out rot);
+
+		PlayerCamera.instance.CalculateCameraAimTransform(entity.GetState<ITicTacState>().Transform.Transform, entity.GetState<ITicTacState>().Pitch, out pos, out rot);
 
 		Ray r = new Ray(pos, rot * Vector3.forward);
 		RaycastHit rh;

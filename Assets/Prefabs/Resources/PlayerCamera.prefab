@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 400000}
   - component: {fileID: 4077355386459732574}
+  - component: {fileID: 7625627399891957106}
   m_Layer: 0
   m_Name: PlayerCamera
   m_TagString: Untagged
@@ -54,6 +55,14 @@ MonoBehaviour:
   runningSmoothTime: 0.1
   dummyRig: {fileID: 400004}
   dummyTarget: {fileID: 400002}
+--- !u!81 &7625627399891957106
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
 --- !u!1 &100002
 GameObject:
   m_ObjectHideFlags: 0
