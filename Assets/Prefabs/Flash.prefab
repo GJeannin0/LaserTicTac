@@ -101,7 +101,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2157461940489181208}
-  - component: {fileID: 6302289805081372856}
   m_Layer: 0
   m_Name: Flash
   m_TagString: Untagged
@@ -124,16 +123,3 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &6302289805081372856
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6237390616807185754}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9da80ac2e0b37b942a42dc7b2905a4fe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  time: 0.5
