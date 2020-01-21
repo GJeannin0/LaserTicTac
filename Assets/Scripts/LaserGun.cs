@@ -6,7 +6,7 @@ public class LaserGun : Weapon
 	public override void DisplayEffects(BoltEntity entity)
 	{
 		Vector3 pos;
-		Quaternion rot;
+		Quaternion rot; //TODO replace with the rotation of the right entity
 
 		PlayerCamera.instance.CalculateCameraAimTransform(entity.transform, entity.GetState<ITicTacState> ().Pitch, out pos, out rot);
 
@@ -36,8 +36,5 @@ public class LaserGun : Weapon
 		GameObject go = (GameObject)GameObject.Instantiate(shellPrefab, shellEjector.position, shellEjector.rotation);
 		go.GetComponent<Rigidbody>().AddRelativeForce(0, 0, 2, ForceMode.VelocityChange);
 		go.GetComponent<Rigidbody>().AddTorque(new Vector3(Random.Range(-32f, +32f), Random.Range(-32f, +32f), Random.Range(-32f, +32f)), ForceMode.VelocityChange);
-
-		// show flash
-		muzzleFlash.gameObject.SetActive(true);
 	}
 }
