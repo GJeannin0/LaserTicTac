@@ -14,7 +14,13 @@ public class PlayerCallbacks : Bolt.GlobalEventListener
 
 	public override void ControlOfEntityGained(BoltEntity entity)
 	{
+		// give the camera our players pitch
+		PlayerCamera.instance.getPitch = () => entity.GetState<ITicTacState>().Pitch;
+
 		// this tells the player camera to look at the entity we are controlling
 		PlayerCamera.instance.SetTarget(entity);
+
+		// add an audio listener for our character
+		entity.gameObject.AddComponent<AudioListener>();
 	}
 }
